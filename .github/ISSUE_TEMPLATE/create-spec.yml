@@ -1,0 +1,13 @@
+name: Create Spec
+description: Create a new specification for Prod-Mill.
+title: "[Create Spec]: "
+labels: ["create-spec"]
+body:
+  - type: textarea
+    id: spec
+    attributes:
+      label: Product Requirements & Goals
+      description: "Provide a detailed specification of the product's requirements and goals."
+      placeholder: "### Product Specification\n\n..."
+    validations:
+      required: true
