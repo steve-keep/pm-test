@@ -1,14 +1,6 @@
-name: Create Tasks
-description: Create new tasks for a spec.
-title: "[TASKS] "
-labels: ["create-tasks"]
 body:
-  - type: dropdown
-    id: spec
-    attributes:
-      label: Select Spec
-      description: Which spec do you want to create tasks for?
-      options:
-        - placeholder
-    validations:
-      required: true
+    - id: spec
+      type: dropdown
+      attributes:
+        options:
+            - 001-hello-world
